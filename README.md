@@ -1,5 +1,11 @@
-# Polls
+# Cape Craft Projects
 
-Django Polls project including Docker
+![Cape Craft Projects Logo](https://durbanvilledistillery.com/images/CCLogo.png)
 
-## Version control and deployment
+___
+
+## Cape Craft Projects demo collection
+
+### Phase1
+
+1. Setting up the base framework.
