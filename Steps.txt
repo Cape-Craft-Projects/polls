@@ -1,0 +1,52 @@
+https://github.com/cookiecutter/cookiecutter
+
+https://justdjango.com/blog/build-a-blog-with-django
+
+https://realpython.com/python-virtual-environments-a-primer/
+
+https://realpython.com/django-migrations-a-primer/
+
+https://dockerlabs.collabnix.com/intermediate/docker-compose/compose-cheatsheet.html
+
+
+pip install virtualenv 
+virtualenv env
+
+venv\bin\Activate.ps1
+venv\bin\Activate
+
+python -m venv venv
+venv\Scripts\Activate.ps1
+venv env\Scripts\Activate
+deactivate
+
+pip install django
+python -m pip list
+pip freeze > requirements.txt 
+django-admin startproject blogpost .
+django-admin startapp blogpost
+python -m pip install django==4.0.3
+python -m pip list
+python manage.py startapp nameofapp
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py startapp posts
+python manage.py createsuperuser
+
+https://docs.docker.com/samples/django/
+
+https://docs.docker.com/compose/startup-order/
+
+docker-compose run web django-admin startproject composeexample .
+chown -R $USER:$USER composeexample manage.py
+docker ps -a
+docker-compose build
+docker-compose up -d
+ ./run_tests
+ docker-compose down
+
+pypiwin32==223
+
+
